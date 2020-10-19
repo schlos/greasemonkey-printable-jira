@@ -1,9 +1,13 @@
 // ==UserScript==
 // @name           Printing Jira tickets
 // @description    Formats the Jira tickets to be small printable boxes. Script is based on 'myCss' by Mike Cao
-// @include        *
+// @match          *issues.2e-systems.com/jira/browse/*
+// @include        *issues.2e-systems.com/jira/browse/*
 // @namespace      http://www.opentable.com/
 // @grant          none
+// @copyright      2019+
+// @author         John Catterfeld, Github @ajcw
+// @version        0.2
 // ==/UserScript==
 
 var css = new Array();
